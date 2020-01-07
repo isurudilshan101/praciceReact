@@ -16,19 +16,23 @@ const App= () =>{
             />
              </ApprovalCard>
 
+             <ApprovalCard>
              <CommentDetail 
              author="dilshan" 
              timeAgo="Today 10:10am" 
              content="Nice blog post"
              avatar={faker.image.avatar()}
              />
+              </ApprovalCard>
 
+              <ApprovalCard>
              <CommentDetail
               author="kamal" 
               timeAgo="yesterday 05:19pm"
               content="I like the writing"
               avatar={faker.image.avatar()}
               />
+               </ApprovalCard>
           
         </div>
     );
